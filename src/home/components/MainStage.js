@@ -1,6 +1,7 @@
 import React from 'react'
 import { COLORS } from '../../theme'
 import SubHeader from './SubHeader'
+import Container from './Container'
 
 const styles = {
   backgroundColor: COLORS.OFFWHITE,
@@ -8,10 +9,10 @@ const styles = {
 }
 
 const MainStage = props => (
-  <div style={{ ...styles }}>
+  <Container styleProps={{ ...styles }}>
     <SubHeader text="objective" />
     <div>This will be body text.</div>
-  </div>
+  </Container>
 )
 
 export default MainStage

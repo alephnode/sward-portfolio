@@ -1,5 +1,6 @@
 import React from 'react'
 import { COLORS } from '../../theme'
+import Container from './Container'
 
 const styles = {
   backgroundColor: COLORS.PASTEL_BLUE,
@@ -11,10 +12,10 @@ const styles = {
 }
 
 const TitleCard = props => (
-  <div style={{ ...styles }}>
+  <Container styleProps={styles} modifier="fullWidth">
     <h1 style={{ ...styles.title }}>stephen ward</h1>
     <div>full-stack engineer</div>
-  </div>
+  </Container>
 )
 
 export default TitleCard
