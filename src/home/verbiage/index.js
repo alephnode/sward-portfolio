@@ -11,12 +11,12 @@ export const aboutLinks = [
 
 export const skills = [
   'Python Enthusiast',
-  'React + State Management Envionmentalist',
+  'React + State Management Environmentalist',
   'Serverless Deployment Evangelist',
 ]
 
 export const interests = [
-  'TenserFlow',
+  'TensorFlow',
   'ReasonML',
   'REST to GraphQL Migration',
   'Data Visualization',
