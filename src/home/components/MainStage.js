@@ -1,17 +1,19 @@
 import React from 'react'
-import { COLORS } from '../../theme'
-import SubHeader from './SubHeader'
+import { COLORS, SPACING } from '../../theme'
 import Container from './Container'
+import { skills, interests, aboutLinks } from '../verbiage'
+import SectionTopic from './SectionTopic'
 
 const styles = {
   backgroundColor: COLORS.OFFWHITE,
-  padding: '20px',
+  padding: SPACING.GUTTER.PADDING_LEFT,
 }
 
 const MainStage = props => (
   <Container styleProps={{ ...styles }}>
-    <SubHeader text="objective" />
-    <div>This will be body text.</div>
+    <SectionTopic topic="about" list={aboutLinks} isLinks />
+    <SectionTopic topic="skills" list={skills} />
+    <SectionTopic topic="interests" list={interests} />
   </Container>
 )
 

@@ -20,6 +20,15 @@ export const FONTS = {
   SYSTEM: '',
 }
 
+export const SPACING = {
+  VERTICAL_HEIGHT: {
+    BODY_SECTION: '2rem',
+  },
+  GUTTER: {
+    PADDING_LEFT: '30px',
+  },
+}
+
 export const TRANSITION_TIMIGS = {
   CUBIC: 'cubic-bezier(0.22, 0.61, 0.36, 1)',
   FLICKER: 'cubic-bezier(0, 0.51, 0.22,-0.29)',

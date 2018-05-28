@@ -1,14 +1,16 @@
 import React from 'react'
-import { COLORS } from '../../theme'
+import { COLORS, FONTS, SPACING } from '../../theme'
 import Container from './Container'
 
 const styles = {
   backgroundColor: COLORS.PASTEL_BLUE,
-  padding: '40px 20px',
+  padding: `40px ${SPACING.GUTTER.PADDING_LEFT}`,
   title: {
     color: COLORS.ACCENT,
+    fontWeight: 900,
     margin: 0,
   },
+  fontFamily: FONTS.ROBOTO,
 }
 
 const TitleCard = props => (
